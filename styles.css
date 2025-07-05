@@ -1,0 +1,38 @@
+/* ページ全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダーのスタイル */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* セクションごとのスタイル */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* セクションごとのタイトル */
+section h2 {
+  color: #4a90e2;
+  border-bottom: 2px solid #4a90e2;
+}
+
+/* フッターのスタイル */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
