@@ -1,38 +1,55 @@
-/* ページ全体のスタイル */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
-/* ヘッダーのスタイル */
 header {
-  background-color: #4a90e2;
+  background-color: #2d6cdf;
   color: white;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
-/* セクションごとのスタイル */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
 section {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 
-/* セクションごとのタイトル */
 section h2 {
-  color: #4a90e2;
-  border-bottom: 2px solid #4a90e2;
+  color: #2d6cdf;
+  margin-bottom: 10px;
 }
 
-/* フッターのスタイル */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
 footer {
-  background-color: #ddd;
   text-align: center;
+  background-color: #eee;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+a {
+  color: #2d6cdf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
